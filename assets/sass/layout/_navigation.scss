@@ -1,0 +1,22 @@
+.navbar{
+ background-color: $eerie-black;
+}
+
+.navbar__logo{
+  width: 120px;
+}
+
+.navbar__div__ul{
+  font-size: $medium;
+
+}
+
+.navbar__div__ul__a{
+  font-size: $medium;
+  font-weight: $regular;
+  color: $platinum;
+
+  &:hover{
+    color: $ruddy-pink;
+  }
+}

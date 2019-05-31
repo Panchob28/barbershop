@@ -1,18 +1,24 @@
-.header__img {
-  padding-top: 4rem;
-  width: 100%;
+
+.header{
+  background-image: url('../img/post-image.jpg');
+  background-size:cover;
+  margin-top: 4rem;
+  padding-top: 350px;
+  text-align: center;
 }
 
-.header__h1{
-  margin-left: 25rem;
-  margin-right: 22rem;
 
+
+
+
+
+.header__h1{
   font-family: $playfair;
   font-weight: $bold-italic;
   font-size: $xx-large;
   font-style: italic;
-  position: absolute;
-   top: 70vh;
-
-   color: $white;
+  color: $white;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 20%;
 }
